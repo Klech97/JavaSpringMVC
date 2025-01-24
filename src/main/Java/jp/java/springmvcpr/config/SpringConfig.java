@@ -26,7 +26,7 @@ public class SpringConfig implements WebMvcConfigurer {
     }
 
     @Bean
-    public SpringResourceTemplateResolver templateResolver() throws BeansException {
+    public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");

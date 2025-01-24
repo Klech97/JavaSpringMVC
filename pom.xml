@@ -56,7 +56,11 @@
           <version>4.0.1</version>
           <scope>provided</scope>
       </dependency>
-
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+          <version>5.3.29</version>  <!-- Актуальная версия -->
+      </dependency>
   </dependencies>
   <build>
     <finalName>SpringMVC2</finalName>
